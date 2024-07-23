@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Level Dropdown Menu</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-box">
+            <div class="container">
+                <div class="top-box__wrapper df a-center j-ct-sb">
+                    <div class="top-box__left df a-center">
+                        <div class="burger dn">
+                            <div class="burger__line burger__line--1"></div>
+                            <div class="burger__line burger__line--2"></div>
+                            <div class="burger__line burger__line--3"></div>
+                        </div>
+
+                        <nav class="top-box__nav">
+                            <ul class="top-box__list df a-center">
+                                <li class="top-box__item">
+                                    <a class="top-box__nav-link" href="#">Needs</a>
+                                </li>
+
+                                <li class="top-box__item">
+                                    <a class="top-box__nav-link" href="#">Price List</a>
+                                </li>
+
+                                <li class="top-box__item top-box__item--has-sub">
+                                    <button type="button" class="top-box__dropdown-btn">Treatments</button>
+                                </li>
+
+                                <li class="top-box__item">
+                                    <a class="top-box__nav-link" href="#">Surgical</a>
+                                </li>
+
+                                <li class="top-box__item">
+                                    <a class="top-box__nav-link" href="#">Dental</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <h1 class="top-box__logo-box">
+                            <a class="top-box__logo" href="/">Multi-Level Dropdown Menu</a>
+                        </h1>
+                    </div>
+
+                    <div class="top-box__right">
+                        <a class="top-box__phone-link" href="tel:+37400000000">+374 00 000000</a>
+
+                        <div class="top-box__mobile dn">
+                            <button class="top-box__btn btn btn--book font-semi-bold" type="button">Book Now</button>
+                            <button class="top-box__btn btn btn--open" type="button"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="search-box">
+            <div class="container df a-center j-ct-sb">
+                <span class="search-box__info">Choose Your Appointment</span>
+
+                <form class="search-box__form" method="get" action="#">
+                    <input class="search-box__input" type="text" name="search" id="search" placeholder="Search...">
+                    <button class="search-box__btn btn--search" type="submit"></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="container">
+                <h2 class="menu__title font-semi-bold">Schedule an Appointment</h2>
+
+                <div class="menu__wrapper df">
+                    <ul class="menu__list">
+                        <li class="menu-item has-submenu">
+                            <button type="button" class="btn btn--menu btn--menu-first-level">Aestheic & Anti-Aging</button>
+
+                            <ul class="submenu">
+                                <li class="submenu-item">
+                                    <a href="#" class="menu__link">Doctor Consultation</a>
+                                </li>
+
+                                <li class="submenu-item has-submenu">
+                                    <button type="button" class="btn btn--menu">Injection</button>
+
+                                    <ul class="submenu">
+                                        <li class="submenu-item">
+                                            <a href="#" class="menu__link">Dermal Filler Injections</a>
+                                        </li>
+
+                                        <li class="submenu-item">
+                                            <a href="#" class="menu__link">Botulinum Toxin</a>
+                                        </li>
+
+                                        <li class="submenu-item">
+                                            <a href="#" class="menu__link">Fat Burner Injection</a>
+                                        </li>
+
+                                        <li class="submenu-item">
+                                            <a href="#" class="menu__link">Mesotheraphy</a>
+                                        </li>
+
+                                        <li class="submenu-item has-submenu">
+                                            <button type="button" class="btn btn--menu has-sub">PRP</button>
+
+                                            <ul class="submenu">
+                                                <li class="submenu-item">
+                                                    <a href="#" class="menu__link">PRP Hair</a>
+                                                </li>
+                                                <li class="submenu-item">
+                                                    <a href="#" class="menu__link">PRP Face & Neck</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="submenu-item">
+                                    <a href="#" class="menu__link">Devices</a>
+                                </li>
+
+                                <li class="submenu-item">
+                                    <a href="#" class="menu__link">Skin Treatment</a>
+                                </li>
+
+                                <li class="submenu-item">
+                                    <a href="#" class="menu__link">IV Drips</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item">
+                            <button type="button" class="btn btn--menu has-sub btn--menu-first-level">PRP</button>
+
+                            <ul class="submenu">
+                                <li class="submenu-item">
+                                    <a href="#" class="menu__link">PRP Hair</a>
+                                </li>
+                                <li class="submenu-item">
+                                    <a href="#" class="menu__link">PRP Face & Neck</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#" class="menu__link">Plastic Surgery</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#" class="menu__link">Dental</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#" class="menu__link">Hair Transplant</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#" class="menu__link">Dental</a>
+                        </li>
+                    </ul>
+
+                    <figure class="menu__img-box">
+                        <img src="./img/img1.png" alt="img1">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

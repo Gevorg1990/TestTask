@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) and (hover: hover) {
+    .menu__link:not(.btn--menu.active):hover,
+    .btn--menu:not(.btn--menu.active):hover {
+        color: rgba(1, 1, 20, 0.3);
+    }
+
+    .top-box__nav-link:hover,
+    .top-box__dropdown-btn:hover,
+    .top-box__phone-link:hover {
+        opacity: 0.6;
+    }
+
+    .is-open > li > *:not(.active):hover {
+        color: #010114 !important;
+    }
+}

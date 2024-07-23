@@ -1,0 +1,56 @@
+.btn {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.menu__link,
+.btn--menu {
+    font-family: 'Poppins-Semi-Bold', 'Helvetica', 'Arial', 'sans-serif';
+    color: #010114;
+    white-space: nowrap;
+    font-size: 1.25rem;
+    line-height: 30px;
+    display: block;
+    text-align: left;
+    transition: color 0.3s ease;
+}
+
+.btn--menu {
+    padding-right: 30px;
+}
+
+.btn--menu.active:before {
+    content: '';
+    background: url("../img/icons/icon-arrow-right.svg") no-repeat center;
+    width: 24px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+}
+
+.btn--open,
+.btn--search {
+    width: 24px;
+    height: 24px;
+    flex: 0 0 24px;
+}
+
+.btn--open {
+    background: url("../img/icons/icon-search-white.svg");
+    position: static;
+}
+
+.btn--search {
+    background: url("../img/icons/icon-search-black.svg");
+    transform: translateY(-50%);
+    position: absolute;
+    left: 16px;
+    top: 50%;
+}
+
+.btn--book {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 14px 20px;
+}
